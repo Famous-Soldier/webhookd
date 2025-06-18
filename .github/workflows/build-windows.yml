@@ -18,7 +18,7 @@ jobs:
 
       - name: Build for Windows
         # This command forces Go to build for Windows and names the output webhookd.exe
-        run: GOOS=windows GOARCH=amd64 go build -o webhookd.exe ./cmd/webhookd
+        run: GOOS=windows GOARCH=amd64 go build -o webhookd.exe github.com/ncarlier/webhookd/cmd/webhookd
 
       - name: Upload Windows EXE
         # This action takes the file we just created and makes it a downloadable artifact
