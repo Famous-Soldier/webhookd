@@ -21,7 +21,7 @@ Run the following command:
 $ go install github.com/ncarlier/webhookd@latest
 ```
 
-**Or** download the binary regarding your architecture:
+**Or** download the binary regarding your architecture: 
 
 ```bash
 $ sudo curl -s https://raw.githubusercontent.com/ncarlier/webhookd/master/install.sh | bash
